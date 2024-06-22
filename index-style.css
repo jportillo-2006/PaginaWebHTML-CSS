@@ -1,0 +1,111 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    color: white;
+    font-size: 30px;
+    font-family: "Mulish", sans-serif;
+    background-color: black;
+    background-image: url('assets/image/background.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.219);
+    padding-left: 50%;
+    padding-right: 46%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.767);
+    padding-bottom: 5px;
+}
+
+h1{
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+table{
+    font-size: 30px;
+    border: black solid 4px;
+    padding: 0px 50px 0px 50px;
+    margin: 50px 20px 50px 0px;
+}
+
+caption{
+    border-left: black solid 4px;
+    border-right: black solid 4px;
+    border-top: black solid 4px;
+    padding: 5px;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    border-bottom: solid black 2px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 0 10px;
+}
+
+.tituloprincipal{
+    margin-right: auto;
+    margin-left: 540px;
+}
+
+.table1{
+    color: rgb(255, 255, 255);
+}
+
+.table2{
+    color:rgb(255, 255, 255);
+}
+
+.border{
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+}
+
+.tablecontainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.342);
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.indexbutton{
+    color: rgba(0, 60, 255, 0.459);
+}
+
+.footer{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
